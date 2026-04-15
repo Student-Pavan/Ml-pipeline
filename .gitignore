@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+
+venv/
+env/
+
+.vscode/
+
+.streamlit/
+
+# logs
+*.log
+
+# DO NOT IGNORE MODEL
+# *.pkl  ❌ removed
