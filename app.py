@@ -1,6 +1,8 @@
 from fastapi import FastAPI
 import joblib
 import glob
+import os
+PORT = int(os.environ.get("PORT", 10000))
 
 app = FastAPI()
 
